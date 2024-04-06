@@ -1,4 +1,9 @@
 import { setupCounter } from "./counter.ts";
+import { getId } from "./params.ts";
 
-// biome-ignore lint/style/noNonNullAssertion: <explanation>
-setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
+const counter = document.querySelector<HTMLButtonElement>("#counter");
+if (counter !== null) {
+  setupCounter(counter);
+}
+
+getId();
