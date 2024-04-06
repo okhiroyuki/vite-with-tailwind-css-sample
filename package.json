@@ -1,29 +1,29 @@
 {
-	"name": "vite-with-tailwind-css-sample",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
-	"scripts": {
-		"analyze": "vite build --emptyOutDir --mode analyze",
-		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"lint": "npx @biomejs/biome check .",
-		"lint:fix": "npx @biomejs/biome check . --apply",
-		"format": "npx @biomejs/biome format . --write",
-		"test": "run-s lint build"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.6.4",
-		"autoprefixer": "^10.4.19",
-		"npm-run-all2": "^6.1.2",
-		"postcss": "^8.4.38",
-		"rollup-plugin-visualizer": "^5.12.0",
-		"tailwindcss": "^3.4.3",
-		"typescript": "^5.2.2",
-		"vite": "^5.2.0"
-	},
-	"dependencies": {
-		"axios": "^1.6.8"
-	}
+  "name": "vite-with-tailwind-css-sample",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "analyze": "vite build --emptyOutDir --mode analyze",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "npx @biomejs/biome check .",
+    "lint:fix": "npx @biomejs/biome check . --apply",
+    "format": "npx @biomejs/biome format . --write",
+    "test": "run-s lint build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.4",
+    "autoprefixer": "^10.4.19",
+    "npm-run-all2": "^6.1.2",
+    "postcss": "^8.4.38",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
 }
