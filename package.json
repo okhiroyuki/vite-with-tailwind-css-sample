@@ -14,7 +14,7 @@
     "test": "run-s lint build"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.4",
+    "@biomejs/biome": "1.8.3",
     "autoprefixer": "10.4.19",
     "npm-run-all2": "6.1.2",
     "postcss": "8.4.40",
