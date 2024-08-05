@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "npm-run-all2": "6.2.2",
     "postcss": "8.4.40",
     "rollup-plugin-visualizer": "5.12.0",
